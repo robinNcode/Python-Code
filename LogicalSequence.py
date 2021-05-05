@@ -1,10 +1,9 @@
-
 n=int(input())
 
 for i in range(1,n+1,1):
 	
-	a=i*i
-	b=i*i*i
+	a=pow(i,2)
+	b=pow(i,3)
 	print(i,a,b)
 	
 	c=a+1
